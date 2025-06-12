@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Class03SumarNumeros {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Introduzca número 1");
+        System.out.println("Introduzca  un número  cualquiera  que desee sumar ");
         //Almacenamos el primer numero
         //El numero debemos almacenarlo como entero
         //Voy a capturar el dato como String
         String dato = teclado.nextLine();
         //Convertimos el dato a int
         int numero1 = Integer.parseInt(dato);
-        System.out.println("Introduzca número 2");
+        System.out.println("Introduzca número con cual quiere sumarlo ");
         //Volvemos a utilizar la variable dato
         dato = teclado.nextLine();
         //Convertimos el dato a int
